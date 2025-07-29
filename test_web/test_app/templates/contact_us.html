@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+</head>
+<body>
+    <h1>Contact us</h1>
+    <div>
+        <p>Miss Prakrati Jain</p>
+        <p>9302040992</p>
+    </div>
+    <div>
+        <form action="" method="post">
+            {% csrf_token %}
+            <input type="text" , name="name" , id="" placeholder="Enter your name">
+            <input type="text" name="number" id="" placeholder="Enter your number">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
